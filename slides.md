@@ -44,6 +44,12 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
 
 
 ---
+title: Outline
+
+- Tools and Theory: OpenMM, FAH, MSMBuilder, MDTraj
+- Application: Benchmarking Small Forcefields
+
+---
 title: Biophysical modeling at scale: theory and software
 class: segue dark nobackground
 
