@@ -553,7 +553,7 @@ title: Where do we go from here?
 - Polarizable forcefields
 
 ---
-title: Conclusions
+title: Takeaways
 
 - Distributed GPU computing enables millisecond simulation
 - MSMBuilder / MDTraj builds machine learning models of conformational dynamics
