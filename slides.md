@@ -98,7 +98,7 @@ Eastman et al, 2012.
 title: OpenMM Powers Folding@Home
 
 - Largest distributed computing project
-- 100,000 CPUs, 10,000 GPUs, 40 petaflops!
+- 100,000 CPUs, 10,000 GPUs, 40 petaflops, milliseconds!
 
 <center>
 <img height=300 src=figures/folding-icon.png />
@@ -130,7 +130,9 @@ title: Introduction to Markov State Models
 <img height=400 src=figures/NewPaths3.png />
 </center>
 
-
+<footer class="source"> 
+See work by Chodera, Bowman, Pande, Noe, Huang, Voelz, Hummer, Prinz, Singhal
+</footer>
 ---
 title: Counting Transitions
 
