@@ -357,11 +357,16 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
       <h2>Re-engineering sklearn for timeseries</h2>
       <h3>Sklearn uses 2D arrays; MSMB uses lists of arrays!</h3>
     </hgroup>
-    <article ><h1>sklearn style</h1>
-<p>data = np.zeros((n_samples, n_features))</p>
-<h1>MSMB style</h1>
-<p>data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]</p>
-<p>model.fit(data)</p>
+    <article ><pre class="prettyprint" data-lang="python">
+
+# sklearn style
+data = np.zeros((n_samples, n_features))
+
+# MSMB style
+data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]
+
+model.fit(data)
+
 </pre></article>
  
 </slide>

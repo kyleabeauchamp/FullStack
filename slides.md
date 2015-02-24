@@ -233,6 +233,8 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
 ---
 title: Re-engineering sklearn for timeseries
 subtitle: Sklearn uses 2D arrays; MSMB uses lists of arrays!
+
+
 <pre class="prettyprint" data-lang="python">
 
 # sklearn style
