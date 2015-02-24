@@ -46,9 +46,9 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
 ---
 title: Outline
 
-- Tools and Theory: OpenMM + FAH
-- Tools and Theory: MSMBuilder + MDTraj
-- Tools and Theory: Omnia
+- Simulating Biological Timescales: OpenMM + FAH
+- Machine learning on atomistic simulations: MSMBuilder + MDTraj
+- A full stack: Omnia
 - Application: Benchmarking Small Forcefields
 
 ---
@@ -249,11 +249,6 @@ model.fit(data)
 </pre>
 
 Sklearn uses 2D arrays; MSMB uses lists of arrays!
-
-
-<footer class="source"> 
-McGibbon et al, 2015 <t>
-</footer>
 
 
 ---
