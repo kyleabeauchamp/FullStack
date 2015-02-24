@@ -46,7 +46,7 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
 ---
 title: Outline
 
-- Simulating Biological Timescales: OpenMM + FAH
+- Simulating Biological Timescales: OpenMM + Folding@Home
 - Inference on atomistic simulations: MSMBuilder + MDTraj
 - A full stack: Omnia
 - Application: Benchmarking Small Forcefields
