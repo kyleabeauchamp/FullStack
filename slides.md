@@ -42,7 +42,7 @@ title: Outline
 
 ---
 title: How do we reach biological timescales?
-subtitle: Challenge: $10^5$ atoms, $10^{12}$ iterations.
+subtitle: The timescale gap: $10^{12}$
 
 <center>
 <img height=450 src=figures/protein_timescales.jpg />
