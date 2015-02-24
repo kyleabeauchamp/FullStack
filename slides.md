@@ -2,35 +2,23 @@
 % author: Kyle A. Beauchamp
 % favicon: figures/membrane.png
 
----
-title: erooM's Law for R&D Efficiency
-subtitle: Producing a drug costs $2B and 15 years, with 95% fail rate
-
-<center>
-<img height=400 src=figures/eroom.png />
-</center>
-
-
-<footer class="source"> 
-Scannell, 2012
-</footer>
-
 
 ---
-title: How can computers help design drugs?
+title: The Atomistic Basis of Disease
 
-<center>
-<img height=475 src=figures/cruise.png />
-</center>
+...EVKMD<b><font color="black">A</font></b>EFRHDS...  ...EVKMD<b><font color="black">T</font></b>EFRHDS...  ...EVKMD<b><font color="black">V</font></b>EFRHDS...
+
+<img width=300 src=figures/alanine.png />  <img width=300 src=figures/threonine.png />   <img width=300 src=figures/valine.png />
 
 <footer class="source"> 
-Figure credit: @jchodera, Tom Cruise
+Jonsson, 2012  A673 T673 V673
 </footer>
+
 
 
 ---
 title: Predictive atomistic models
-subtitle: Designing the binding, specificity, and signaling of chemotherapeutics
+subtitle:  Predict experiments, rationalize function, design molecules
 
 <center>
 <img height=300 src=figures/multiscale-cartoon.png />
@@ -97,7 +85,7 @@ Eastman et al, 2012.
 title: OpenMM Powers Folding@Home
 
 - Largest distributed computing project
-- 100,000 CPUs, 10,000 GPUs, 40 petaflops, milliseconds!
+- 10,000 GPUs, 40 petaflops, milliseconds in aggregate!
 
 <center>
 <img height=300 src=figures/folding-icon.png />
@@ -132,41 +120,6 @@ title: Introduction to Markov State Models
 <footer class="source"> 
 See work by Chodera, Bowman, Pande, Noe, Huang, Voelz, Hummer, Prinz, Singhal
 </footer>
----
-title: Counting Transitions
-
-<center>
-
-<img height=300 src=figures/NewPaths-2State.png />
-
-$\downarrow$
-
-$A = (111222222)$
-
----
-title: Counting Transitions
-
-<center>
-
-$A = (111222222)$
-
-$\downarrow$
-
-$C = \begin{pmatrix} C_{1\rightarrow 1} & C_{1\rightarrow 2} \\\ C_{2 \rightarrow 1} & C_{2 \rightarrow 2} \end{pmatrix} =  \begin{pmatrix}2 & 1 \\\ 0 & 5\end{pmatrix}$
-
-</center>
-
----
-title: Estimating Rates
-
-<center>
-$C = \begin{pmatrix} C_{1\rightarrow 1} & C_{1\rightarrow 2} \\\ C_{2 \rightarrow 1} & C_{2 \rightarrow 2} \end{pmatrix} = \begin{pmatrix}2 & 1 \\\ 0 & 5\end{pmatrix}$
-
-$\downarrow$
-
-$T = \begin{pmatrix} T_{1\rightarrow 1} & T_{1\rightarrow 2} \\\ T_{2 \rightarrow 1} & T_{2 \rightarrow 2} \end{pmatrix} = \begin{pmatrix}\frac{2}{3} & \frac{1}{3} \\\ 0 & 1\end{pmatrix}$
-
-</center>
 
 
 ---
@@ -206,7 +159,7 @@ subtitle: Finding meaning in massive simulation datasets
 
 <footer class="source"> 
 msmbuilder.org <br>
-https://github.com/msmbuilder/msmbuilder
+Bowman et al, 2009.  Beauchamp et al, 2012. 
 </footer>
 
 
@@ -230,22 +183,6 @@ Builds on [scikit-learn](http://scikit-learn.org/stable/) idioms:
 http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
 </footer>
 
----
-title: Re-engineering sklearn for timeseries
-subtitle: Sklearn uses 2D arrays; MSMB uses lists of arrays!
-
-
-<pre class="prettyprint" data-lang="python">
-
-# sklearn style
-data = np.zeros((n_samples, n_features))
-
-# MSMB style
-data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]
-
-model.fit(data)
-
-</pre>
 
 ---
 title: MSMBuilder3: Demo
@@ -473,6 +410,7 @@ See also van der Spoel, JCTC, 2011 and Fennell, 2012.
 
 ---
 title: How many measurements are there?
+subtitle: Munging the ThermoML with pyxb and pandas
 
 <center>
 <img height=450 src=figures/funnel.png />
@@ -517,7 +455,7 @@ title:  Static dielectric constants are consistently underestimated
 
 ---
 title: Fixed charges fail to capture polarizability
-subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G \approx$ 2 kcal / mol
+subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol
 
 <center>
 <img height=400 src=figures/nonpolar_molecules.png />
@@ -552,6 +490,11 @@ title: Where do we go from here?
 - Perform new experiments in automated wetlab
 - Bayesian (MCMC) forcefield / experimental design
 - Polarizable forcefields
+
+<center>
+<img height=250 src=figures/robot_image.jpg />
+</center>
+
 
 ---
 title: Takeaways
