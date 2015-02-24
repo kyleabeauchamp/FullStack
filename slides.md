@@ -46,11 +46,13 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
 ---
 title: Outline
 
-- Tools and Theory: OpenMM, FAH, MSMBuilder, MDTraj
+- Tools and Theory: OpenMM + FAH
+- Tools and Theory: MSMBuilder + MDTraj
+- Tools and Theory: Omnia
 - Application: Benchmarking Small Forcefields
 
 ---
-title: Biophysical modeling at scale: theory and software
+title: Atomistic modeling at scale: theory and software
 class: segue dark nobackground
 
 ---
@@ -233,26 +235,26 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
 
 ---
 title: Re-engineering sklearn for timeseries
-subtitle: fit() acts on lists of arrays, rather than $n_{samples} \times n_{features}$ arrays
-
 
 <pre class="prettyprint" data-lang="python">
 
-from msmbuilder import markovstatemodel
+# sklearn style
+data = np.zeros((n_samples, n_features))
 
-trajectories = [np.array([0, 0, 0, 1, 1, 1, 0, 0])]
+# MSMB style
+data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]
 
-msm = markovstatemodel.MarkovStateModel()
-msm.fit(trajectories)
-
-msm.transmat_
-
-array([[ 0.75      ,  0.25      ],
-       [ 0.33333333,  0.66666667]])
+model.fit(data)
 
 </pre>
 
-This is different from sklearn, which uses 2D arrays!!!
+Sklearn uses 2D arrays; MSMB uses lists of arrays!
+
+
+<footer class="source"> 
+McGibbon et al, 2015 <t>
+</footer>
+
 
 ---
 title: MSMBuilder3: Demo

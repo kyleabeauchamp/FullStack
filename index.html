@@ -123,7 +123,9 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
       <h3></h3>
     </hgroup>
     <article ><ul>
-<li>Tools and Theory: OpenMM, FAH, MSMBuilder, MDTraj</li>
+<li>Tools and Theory: OpenMM + FAH</li>
+<li>Tools and Theory: MSMBuilder + MDTraj</li>
+<li>Tools and Theory: Omnia</li>
 <li>Application: Benchmarking Small Forcefields</li>
 </ul></article>
  
@@ -133,7 +135,7 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
   
     <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside> -->
     <hgroup class="auto-fadein">
-      <h2>Biophysical modeling at scale: theory and software</h2>
+      <h2>Atomistic modeling at scale: theory and software</h2>
       <h3></h3>
     </hgroup>
   
@@ -363,25 +365,24 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
   
     <hgroup>
       <h2>Re-engineering sklearn for timeseries</h2>
-      <h3>fit() acts on lists of arrays, rather than $n_{samples} \times n_{features}$ arrays</h3>
+      <h3></h3>
     </hgroup>
     <article ><pre class="prettyprint" data-lang="python">
 
-from msmbuilder import markovstatemodel
+# sklearn style
+data = np.zeros((n_samples, n_features))
 
-trajectories = [np.array([0, 0, 0, 1, 1, 1, 0, 0])]
+# MSMB style
+data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]
 
-msm = markovstatemodel.MarkovStateModel()
-msm.fit(trajectories)
-
-msm.transmat_
-
-array([[ 0.75      ,  0.25      ],
-       [ 0.33333333,  0.66666667]])
+model.fit(data)
 
 </pre>
 
-<p>This is different from sklearn, which uses 2D arrays!!!</p></article>
+<p>Sklearn uses 2D arrays; MSMB uses lists of arrays!</p>
+<footer class="source"> 
+McGibbon et al, 2015 <t>
+</footer></article>
  
 </slide>
 
