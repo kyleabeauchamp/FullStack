@@ -51,9 +51,6 @@ title: Outline
 - A full stack: Omnia
 - Application: Benchmarking Small Forcefields
 
----
-title: Atomistic modeling at scale: theory and software
-class: segue dark nobackground
 
 ---
 title: How do we reach biological timescales?
