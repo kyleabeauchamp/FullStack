@@ -325,58 +325,39 @@ Also has command line interface.
 <slide  >
   
     <hgroup>
-      <h2>MDTraj</h2>
+      <h2>MDTraj: Trajectory IO and featurization</h2>
       <h3></h3>
     </hgroup>
-    <article ><p><center>
-<img height=250 src=figures/mdtraj_logo-small.png />
-</center></p>
-<footer class="source"> 
-mdtraj.org <br>
-McGibbon et al, 2014
-</footer></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
-      <h2>MDTraj</h2>
-      <h3>Read, write, and analyze single trajectories with only a few lines of Python.</h3>
-    </hgroup>
     <article ><ul>
-<li>Used by MSMBuilder for trajectory featurization</li>
 <li>Multitude of formats (PDB, DCD, XTC, HDF, CDF, mol2)</li>
 <li>Geometric trajectory analysis (distances, angles, RMSD)</li>
 <li>Numpy / SSE kernels enable Folding@Home scale analysis</li>
 </ul>
-<footer class="source"> 
-mdtraj.org <t>
-McGibbon et al, 2014 <t>
-Haque, 2014
-</footer></article>
- 
-</slide>
+<div style="float:left;">
+<br>
 
-<slide  >
-  
-    <hgroup>
-      <h2>Trajectory munging with MDTraj</h2>
-      <h3>Lightweight Pythonic API</h3>
-    </hgroup>
-    <article ><pre class="prettyprint" data-lang="python">
+<pre class="prettyprint" data-lang="python">
+
 import mdtraj as md
 
 trajectory = md.load("./trajectory.h5")
-indices, phi = md.compute_phi(trajectory)
-</pre>
 
-<p><center>
-<img height=300 src=figures/phi.png />
-</center></p>
+indices, phi = md.compute_phi(trajectory)
+
+
+</pre>
+</div>
+
+<div style="float:right;">
+<img src="figures/phi.png" height="300">
+</div>
+
 <footer class="source"> 
-mdtraj.org <t>
-McGibbon et al, 2014 <t>
+mdtraj.org
+<span style="display:inline-block; width: 15px;"></span>
+McGibbon et al, 2014.
+<span style="display:inline-block; width: 15px;"></span>
+Haque, 2014.
 </footer></article>
  
 </slide>

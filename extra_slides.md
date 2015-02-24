@@ -79,3 +79,40 @@ data = [np.zeros((n_samples, n_features)) for i in range(num_trajectories)]
 model.fit(data)
 
 </pre>
+
+
+---
+title: MDTraj
+
+<center>
+<img height=250 src=figures/mdtraj_logo-small.png />
+</center>
+
+
+<footer class="source"> 
+mdtraj.org <br>
+McGibbon et al, 2014
+</footer>
+
+
+
+---
+title: Trajectory munging with MDTraj
+subtitle: Lightweight Pythonic API
+
+<pre class="prettyprint" data-lang="python">
+import mdtraj as md
+
+trajectory = md.load("./trajectory.h5")
+indices, phi = md.compute_phi(trajectory)
+</pre>
+
+
+<center>
+<img height=300 src=figures/phi.png />
+</center>
+
+<footer class="source"> 
+mdtraj.org <t>
+McGibbon et al, 2014 <t>
+</footer>

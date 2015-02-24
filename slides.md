@@ -208,56 +208,42 @@ Also has command line interface.
 </footer>
 
 ---
-title: MDTraj
+title: MDTraj: Trajectory IO and featurization
 
-<center>
-<img height=250 src=figures/mdtraj_logo-small.png />
-</center>
-
-
-<footer class="source"> 
-mdtraj.org <br>
-McGibbon et al, 2014
-</footer>
-
-
----
-title: MDTraj
-subtitle: Read, write, and analyze single trajectories with only a few lines of Python.
-
-- Used by MSMBuilder for trajectory featurization
 - Multitude of formats (PDB, DCD, XTC, HDF, CDF, mol2)
 - Geometric trajectory analysis (distances, angles, RMSD)
 - Numpy / SSE kernels enable Folding@Home scale analysis
 
 
-<footer class="source"> 
-mdtraj.org <t>
-McGibbon et al, 2014 <t>
-Haque, 2014
-</footer>
-
----
-title: Trajectory munging with MDTraj
-subtitle: Lightweight Pythonic API
+<div style="float:left;">
+<br>
 
 <pre class="prettyprint" data-lang="python">
+
 import mdtraj as md
 
 trajectory = md.load("./trajectory.h5")
+
 indices, phi = md.compute_phi(trajectory)
+
+
 </pre>
+</div>
 
 
-<center>
-<img height=300 src=figures/phi.png />
-</center>
+<div style="float:right;">
+<img src="figures/phi.png" height="300">
+</div>
+
+
 
 <footer class="source"> 
-mdtraj.org <t>
-McGibbon et al, 2014 <t>
+mdtraj.org
+<span style="display:inline-block; width: 15px;"></span>
+McGibbon et al, 2014.
+<span style="display:inline-block; width: 15px;"></span>
+Haque, 2014.
 </footer>
-
 
 ---
 title: Python packaging blues
