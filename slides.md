@@ -282,7 +282,7 @@ title: A full stack for biophysical computation
 subtitle: omnia.md
 
 <pre class="prettyprint" data-lang="bash">
-conda config --add channels http://conda.binstar.org/omnia/
+conda config --add channels http://conda.binstar.org/omnia
 conda install omnia
 </pre>
 
@@ -426,6 +426,10 @@ title:  Densities are in the ballpark
 <img height=500 src=figures/densities_thermoml.png />
 </center>
 
+<footer class="source"> 
+Beauchamp et al, In Preparation.
+</footer>
+
 ---
 title: Inverse dielectric constant is proportional to interaction strength
 
@@ -437,6 +441,11 @@ title:  Static dielectric constants are consistently underestimated
 <center>
 <img height=450 src=figures/dielectrics_thermoml_nocorr.png />
 </center>
+
+
+<footer class="source"> 
+Beauchamp et al, In Preparation.
+</footer>
 
 
 ---
@@ -468,6 +477,11 @@ title: Empirical atomic polarizability corrections reduce bias
 <center>
 <img height=450 src=figures/dielectrics_thermoml.png />
 </center>
+
+
+<footer class="source"> 
+Beauchamp et al, In Preparation.
+</footer>
 
 ---
 title: Where do we go from here?
