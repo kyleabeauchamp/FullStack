@@ -137,3 +137,15 @@ title: NIST Thermodynamics Research Center
 <center>
 <img height=500 src=figures/boulder3.jpg />
 </center>
+
+
+---
+title: (Future) Application: Ligand Binding
+
+<center>
+<img height=450 src=figures/gprc_ligands.jpg />
+</center>
+
+<footer class="source"> 
+Kobilka, 2012.  See also Shukla, 2013.
+</footer>

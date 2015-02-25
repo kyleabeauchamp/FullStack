@@ -1,3 +1,4 @@
+convert -resize 500% -quality 100 -sharpen 0x1.0 -density 150  mutation_diagram_SRC.pdf  mutation_diagram_SRC.png
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectric_virtual_chemistry_opls_nocorr.pdf ./dielectrics_virtual_chemistry_opls_nocoff.png
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectric_virtual_chemistry_gaff_nocorr.pdf ./dielectrics_virtual_chemistry_gaff_nocoff.png
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectrics_thermoml_nocorr.pdf  ./dielectrics_thermoml_nocorr.png

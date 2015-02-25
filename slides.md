@@ -136,15 +136,18 @@ Voelz, Bowman, Beauchamp, Pande. J. Am. Chem. Soc., 2010
 
 
 ---
-title: (Future) Application: Ligand Binding
+title: Application: chemotherapy resistance
 
-<center>
-<img height=450 src=figures/gprc_ligands.jpg />
-</center>
+<img height="225" class="center" src=figures/mutation_diagram_SRC.png />
 
-<footer class="source"> 
-Kobilka, 2012.  See also Shukla, 2013.
-</footer>
+
+---
+title: Application: chemotherapy resistance
+
+
+<img height="500" class="center" src=figures/res_muts-2.png />
+
+
 
 ---
 title: MSMBuilder
