@@ -376,10 +376,6 @@ Figure from Chiraco, J. Chem. Eng. Dat., 2013.
 
 
 ---
-title: Can we leverage ThermoML for forcefield validation?
-class: segue dark nobackground
-
----
 title: Density and dielectric constants as forcefield tests
 
 - Sensitive to nonbonded parameters
@@ -395,18 +391,11 @@ See also van der Spoel, JCTC, 2011 and Fennell, 2012.
 
 
 ---
-title: How many measurements are there?
-subtitle: Munging the ThermoML with pyxb and pandas
-
-<center>
-<img height=450 src=figures/funnel.png />
-</center>
-
----
 title: Benchmarking neat liquid densities and dielectric constants
 
+- Munge ThermoML with pyxb and pandas
 - OpenMM 6.2
-- GAFF + AM1-BCC (Antechamber + OpenEye)
+- GAFF / AM1-BCC (Antechamber + OpenEye)
 - Converge each density to 0.0002 g / mL ($\approx$ expt. error)
 
 

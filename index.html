@@ -92,7 +92,7 @@ Jonsson, 2012  A673 T673 V673
     </hgroup>
     <article ><p><center>
 <img height=300 src=figures/multiscale-cartoon.png />
-<video id="sampleMovie" src="movies/shaw-dasatanib-2.mov" loop=\"true\ autoPlay=\"true\  width="512" height="384"></video>
+<video id="sampleMovie" src="movies/shaw-dasatanib-2.mov" loop=\\"true\\ autoPlay=\\"true\\  width="512" height="384"></video>
 </center></p>
 <footer class="source"> 
 Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
@@ -537,16 +537,6 @@ Figure from Chiraco, J. Chem. Eng. Dat., 2013.
  
 </slide>
 
-<slide class="segue dark nobackground" >
-  
-    <!-- <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside> -->
-    <hgroup class="auto-fadein">
-      <h2>Can we leverage ThermoML for forcefield validation?</h2>
-      <h3></h3>
-    </hgroup>
-  
-</slide>
-
 <slide  >
   
     <hgroup>
@@ -568,24 +558,13 @@ See also van der Spoel, JCTC, 2011 and Fennell, 2012.
 <slide  >
   
     <hgroup>
-      <h2>How many measurements are there?</h2>
-      <h3>Munging the ThermoML with pyxb and pandas</h3>
-    </hgroup>
-    <article ><p><center>
-<img height=450 src=figures/funnel.png />
-</center></p></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
       <h2>Benchmarking neat liquid densities and dielectric constants</h2>
       <h3></h3>
     </hgroup>
     <article ><ul>
+<li>Munge ThermoML with pyxb and pandas</li>
 <li>OpenMM 6.2</li>
-<li>GAFF + AM1-BCC (Antechamber + OpenEye)</li>
+<li>GAFF / AM1-BCC (Antechamber + OpenEye)</li>
 <li>Converge each density to 0.0002 g / mL (<mathjax>$\approx$</mathjax> expt. error)</li>
 </ul>
 <p><center>
