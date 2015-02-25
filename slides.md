@@ -260,23 +260,6 @@ User: I tried easy_install and other things and that didn't work for me.</font>
 </center>
 
 
-
----
-title: Facile package sharing with conda
-
-<pre>
-
-<font color="red">User: I couldn't really install the mdtraj module on my computer [...]
-User: I tried easy_install and other things and that didn't work for me.</font>
-
-<font color="blue">Me: Installing mdtraj should be a one line command:
-Me: `conda install -c https://conda.binstar.org/omnia mdtraj`</font>
-
-<font color="red">User: Success!</font>
-
-</pre>
-
-
 ---
 title: A full stack for biophysical computation
 subtitle: omnia.md
@@ -284,6 +267,9 @@ subtitle: omnia.md
 <pre class="prettyprint" data-lang="bash">
 conda config --add channels http://conda.binstar.org/omnia
 conda install omnia
+
+<font color="red">User: Success!</font>
+
 </pre>
 
 - OpenMM 6.2
