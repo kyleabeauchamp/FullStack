@@ -338,11 +338,6 @@ title: Data access is killing forcefields
 See also work by Wang, Pande, Swope, Case, MacKerell, Ponder, Best, Hummer, Bruschweiler.
 </footer>
 
-
----
-title: WANTED: Reliable, machine-readable, open archive of physicochemical measurements!
-class: segue dark nobackground
-
 ---
 title: Data Capture at NIST/TRC: ThermoML
 
