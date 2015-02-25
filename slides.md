@@ -343,15 +343,6 @@ See also work by Wang, Pande, Swope, Case, MacKerell, Ponder, Best, Hummer, Brus
 title: WANTED: Reliable, machine-readable, open archive of physicochemical measurements!
 class: segue dark nobackground
 
-
----
-title: NIST Thermodynamics Research Center
-
-<center>
-<img height=500 src=figures/boulder3.jpg />
-</center>
-
-
 ---
 title: Data Capture at NIST/TRC: ThermoML
 
