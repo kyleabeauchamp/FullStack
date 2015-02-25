@@ -262,9 +262,10 @@ User: I tried easy_install and other things and that didn't work for me.</font>
 
 ---
 title: A full stack for biophysical computation
-subtitle: omnia.md
 
 <pre class="prettyprint" data-lang="bash">
+<font color="blue">Me: Try this:
+
 conda config --add channels http://conda.binstar.org/omnia
 conda install omnia
 
