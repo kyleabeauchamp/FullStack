@@ -264,8 +264,6 @@ User: I tried easy_install and other things and that didn't work for me.</font>
 title: A full stack for biophysical computation
 
 <pre>
-<font color="blue">Me: Try this:</font>
-
 conda config --add channels http://conda.binstar.org/omnia
 conda install omnia
 
