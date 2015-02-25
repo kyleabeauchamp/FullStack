@@ -298,13 +298,10 @@ omnia.md
 </footer>
 
 
----
-title: Benchmarking Small Molecule Forcefields at the Scale of NIST
-class: segue dark nobackground
 
 ---
 title: Models are made to be broken
-subtitle: How can we falsify and refine computer based models?
+subtitle: Benchmarking Small Molecule Forcefields at the Scale of NIST
 
 - Chemistry and biophysics are labor-intensive
 - Thousands of parameters = thousands of measurements
