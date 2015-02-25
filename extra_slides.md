@@ -116,3 +116,10 @@ indices, phi = md.compute_phi(trajectory)
 mdtraj.org <t>
 McGibbon et al, 2014 <t>
 </footer>
+
+
+
+---
+title: Can we leverage ThermoML for forcefield validation?
+class: segue dark nobackground
+
