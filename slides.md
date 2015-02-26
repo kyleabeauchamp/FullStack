@@ -172,9 +172,7 @@ Builds on [scikit-learn](http://scikit-learn.org/stable/) idioms:
 - Everything is a `Model`.
 - Models are `fit()` on data.
 - Models learn `attributes_`.
-- Models `transform()` data.
 - `Pipeline()` concatenate models.
-- Meta-models like grid search.
 
 <footer class="source"> 
 http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
