@@ -133,6 +133,12 @@ title: Application: Millisecond Protein Folding
 
 <footer class="source"> 
 Voelz, Bowman, Beauchamp, Pande. J. Am. Chem. Soc., 2010
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, JCTC 2011
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, PNAS 2011
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, PNAS 2012
 </footer>
 
 
@@ -153,7 +159,6 @@ title: MSMBuilder
 subtitle: Finding meaning in massive simulation datasets
 
 
-
 <center>
 <img height=300 src=figures/msmbuilder.png />
 </center>
@@ -161,7 +166,10 @@ subtitle: Finding meaning in massive simulation datasets
 
 <footer class="source"> 
 msmbuilder.org <br>
-Bowman et al, 2009.  Beauchamp et al, 2012. 
+<span style="display:inline-block; width: 15px;"></span>
+Bowman et al, 2009.
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp et al, 2012. 
 </footer>
 
 
@@ -343,24 +351,6 @@ See also van der Spoel, JCTC, 2011 and Fennell, 2012.
 
 
 ---
-title: Benchmarking neat liquid densities and dielectric constants
-
-- Munge ThermoML with pyxb and pandas
-- OpenMM 6.2
-- GAFF / AM1-BCC (Antechamber + OpenEye)
-- Converge each density to 0.0002 g / mL ($\approx$ expt. error)
-
-
-<center>
-<img height=200 src=figures/openmm.png />
-</center>
-
-<footer class="source"> 
-PME + Langevin 1 fs + Monte Carlo Barostat + Fixed HBond Constraints + 1000 molecules per box
-</footer>
-
-
----
 title:  Densities are in the ballpark
 
 <center>
@@ -370,11 +360,6 @@ title:  Densities are in the ballpark
 <footer class="source"> 
 Beauchamp et al, In Preparation.
 </footer>
-
----
-title: Inverse dielectric constant is proportional to interaction strength
-
-$$U(r) = \frac{1}{4 \pi \epsilon} \frac{q_1 q_2}{r} \propto \frac{1}{\epsilon}$$
 
 ---
 title:  Static dielectric constants are consistently underestimated
@@ -387,15 +372,6 @@ title:  Static dielectric constants are consistently underestimated
 <footer class="source"> 
 Beauchamp et al, In Preparation.
 </footer>
-
-
----
-title: Fixed charges fail to capture polarizability
-subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol
-
-<center>
-<img height=400 src=figures/nonpolar_molecules.png />
-</center>
 
 ---
 title: Atom counting predicts molecular polarizability to within 2%

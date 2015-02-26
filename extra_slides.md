@@ -149,3 +149,37 @@ title: (Future) Application: Ligand Binding
 <footer class="source"> 
 Kobilka, 2012.  See also Shukla, 2013.
 </footer>
+
+
+---
+title: Inverse dielectric constant is proportional to interaction strength
+
+$$U(r) = \frac{1}{4 \pi \epsilon} \frac{q_1 q_2}{r} \propto \frac{1}{\epsilon}$$
+
+
+---
+title: Benchmarking neat liquid densities and dielectric constants
+
+- Munge ThermoML with pyxb and pandas
+- OpenMM 6.2
+- GAFF / AM1-BCC (Antechamber + OpenEye)
+- Converge each density to 0.0002 g / mL ($\approx$ expt. error)
+
+
+<center>
+<img height=200 src=figures/openmm.png />
+</center>
+
+<footer class="source"> 
+PME + Langevin 1 fs + Monte Carlo Barostat + Fixed HBond Constraints + 1000 molecules per box
+</footer>
+
+
+
+---
+title: Fixed charges fail to capture polarizability
+subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol
+
+<center>
+<img height=400 src=figures/nonpolar_molecules.png />
+</center>

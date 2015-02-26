@@ -235,6 +235,12 @@ See work by Chodera, Bowman, Beauchamp, Pande, Noe, Huang, Voelz, Hummer, Prinz,
 </center></p>
 <footer class="source"> 
 Voelz, Bowman, Beauchamp, Pande. J. Am. Chem. Soc., 2010
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, JCTC 2011
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, PNAS 2011
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp, et al, PNAS 2012
 </footer></article>
  
 </slide>
@@ -264,7 +270,10 @@ cbioportal.org
 </center></p>
 <footer class="source"> 
 msmbuilder.org <br>
-Bowman et al, 2009.  Beauchamp et al, 2012. 
+<span style="display:inline-block; width: 15px;"></span>
+Bowman et al, 2009.
+<span style="display:inline-block; width: 15px;"></span>
+Beauchamp et al, 2012. 
 </footer></article>
  
 </slide>
@@ -487,27 +496,6 @@ See also van der Spoel, JCTC, 2011 and Fennell, 2012.
 <slide  >
   
     <hgroup>
-      <h2>Benchmarking neat liquid densities and dielectric constants</h2>
-      <h3></h3>
-    </hgroup>
-    <article ><ul>
-<li>Munge ThermoML with pyxb and pandas</li>
-<li>OpenMM 6.2</li>
-<li>GAFF / AM1-BCC (Antechamber + OpenEye)</li>
-<li>Converge each density to 0.0002 g / mL (<mathjax>$\approx$</mathjax> expt. error)</li>
-</ul>
-<p><center>
-<img height=200 src=figures/openmm.png />
-</center></p>
-<footer class="source"> 
-PME + Langevin 1 fs + Monte Carlo Barostat + Fixed HBond Constraints + 1000 molecules per box
-</footer></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
       <h2>Densities are in the ballpark</h2>
       <h3></h3>
     </hgroup>
@@ -523,16 +511,6 @@ Beauchamp et al, In Preparation.
 <slide  >
   
     <hgroup>
-      <h2>Inverse dielectric constant is proportional to interaction strength</h2>
-      <h3></h3>
-    </hgroup>
-    <article ><p><mathjax>$$U(r) = \frac{1}{4 \pi \epsilon} \frac{q_1 q_2}{r} \propto \frac{1}{\epsilon}$$</mathjax></p></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
       <h2>Static dielectric constants are consistently underestimated</h2>
       <h3></h3>
     </hgroup>
@@ -542,18 +520,6 @@ Beauchamp et al, In Preparation.
 <footer class="source"> 
 Beauchamp et al, In Preparation.
 </footer></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
-      <h2>Fixed charges fail to capture polarizability</h2>
-      <h3>Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol</h3>
-    </hgroup>
-    <article ><p><center>
-<img height=400 src=figures/nonpolar_molecules.png />
-</center></p></article>
  
 </slide>
 
