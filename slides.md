@@ -97,7 +97,7 @@ http://folding.stanford.edu/
 </footer>
 
 ---
-title: Traditional Simulation Analysis
+title: Traditional Simulation Analysis: Movies
 
 <center>
 <img height=400 src=figures/NewPaths1.png />
