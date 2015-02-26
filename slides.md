@@ -18,7 +18,7 @@ Jonsson, 2012  A673 T673 V673
 
 ---
 title: Predictive atomistic models
-subtitle:  Predict experiments, rationalize function, design molecules
+subtitle:  Predict experiments quantitatively, rationalize function, design molecules
 
 <center>
 <img height=300 src=figures/multiscale-cartoon.png />
@@ -84,6 +84,7 @@ Eastman et al, 2012.
 ---
 title: OpenMM Powers Folding@Home
 
+- GPUs only take us to ~100 ns / day
 - Largest distributed computing project
 - 10,000 GPUs, milliseconds in aggregate!
 
