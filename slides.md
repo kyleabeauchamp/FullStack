@@ -119,7 +119,7 @@ title: Introduction to Markov State Models
 </center>
 
 <footer class="source"> 
-See work by Chodera, Bowman, Pande, Noe, Huang, Voelz, Hummer, Prinz, Singhal
+See work by Chodera, Bowman, Beauchamp, Pande, Noe, Huang, Voelz, Hummer, Prinz, Singhal
 </footer>
 
 
@@ -143,6 +143,10 @@ title: Application: chemotherapy resistance
 
 <img height="300" class="center" src=figures/res_muts-2.png />
 
+
+<footer class="source"> 
+cbioportal.org
+</footer>
 
 ---
 title: MSMBuilder
@@ -303,12 +307,10 @@ Fennell, Mobley.  J. Phys. Chem. B. 2014
 ---
 title: Data access is killing forcefields
 
-- Forcefields should be consistent with all available data
 - Most datasets are heterogeneous, offline, and static
 
 <center>
-<img height=325 src=figures/qc_supply_grinder_510482.jpg />
-<img height=300 src=figures/stack-of-old-books.jpg />
+<img height=350 src=figures/stack-of-old-books.jpg />
 </center>
 
 <footer class="source"> 
