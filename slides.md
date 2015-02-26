@@ -36,7 +36,7 @@ title: Outline
 
 - Simulating Biological Timescales: OpenMM + Folding@Home
 - Inference on atomistic simulations: MSMBuilder + MDTraj
-- A full stack: Omnia
+- A full stack for biophysical computation: Omnia.md
 - Application: Benchmarking Small Forcefields
 
 
@@ -70,7 +70,7 @@ title: OpenMM
 subtitle: GPU accelerated molecular dynamics
 
 - Extensible C++ library with Python wrappers
-- Hardware backends for CUDA, OpenCL, CPU
+- CUDA, OpenCL, CPU
 
 <center>
 <img height=300 src=figures/openmm.png />
@@ -85,7 +85,7 @@ Eastman et al, 2012.
 title: OpenMM Powers Folding@Home
 
 - Largest distributed computing project
-- 10,000 GPUs, 40 petaflops, milliseconds in aggregate!
+- 10,000 GPUs, milliseconds in aggregate!
 
 <center>
 <img height=300 src=figures/folding-icon.png />
@@ -138,15 +138,9 @@ Voelz, Bowman, Beauchamp, Pande. J. Am. Chem. Soc., 2010
 ---
 title: Application: chemotherapy resistance
 
-<img height="225" class="center" src=figures/mutation_diagram_SRC.png />
+<img height="175" class="center" src=figures/mutation_diagram_SRC.png />
 
-
----
-title: Application: chemotherapy resistance
-
-
-<img height="500" class="center" src=figures/res_muts-2.png />
-
+<img height="300" class="center" src=figures/res_muts-2.png />
 
 
 ---
@@ -207,7 +201,6 @@ pipeline.fit(trajectories)
 
 <footer class="source"> 
 msmbuilder.org <br>
-Also has command line interface.
 </footer>
 
 ---
@@ -287,15 +280,13 @@ omnia.md
 
 
 ---
-title: Models are made to be broken
-subtitle: Benchmarking Small Molecule Forcefields at the Scale of NIST
+title: Benchmarking Small Molecule Forcefields at the Scale of NIST
 
-- Chemistry and biophysics are labor-intensive
+- Models (forcefields) are made to be broken
 - Thousands of parameters = thousands of measurements
-- Reproducibilty, scalability, archival
 
 <center>
-<img height=250 src=figures/robot_image.jpg />
+<img height=300 src=figures/robot_image.jpg />
 </center>
 
 ---

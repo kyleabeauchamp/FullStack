@@ -92,7 +92,7 @@ Jonsson, 2012  A673 T673 V673
     </hgroup>
     <article ><p><center>
 <img height=300 src=figures/multiscale-cartoon.png />
-<video id="sampleMovie" src="movies/shaw-dasatanib-2.mov" loop=\"true\ autoPlay=\"true\  width="512" height="384"></video>
+<video id="sampleMovie" src="movies/shaw-dasatanib-2.mov" loop=\\"true\\ autoPlay=\\"true\\  width="512" height="384"></video>
 </center></p>
 <footer class="source"> 
 Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
@@ -109,7 +109,7 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
     <article ><ul>
 <li>Simulating Biological Timescales: OpenMM + Folding@Home</li>
 <li>Inference on atomistic simulations: MSMBuilder + MDTraj</li>
-<li>A full stack: Omnia</li>
+<li>A full stack for biophysical computation: Omnia.md</li>
 <li>Application: Benchmarking Small Forcefields</li>
 </ul></article>
  
@@ -153,7 +153,7 @@ GTX Titan, DHFR, OpenMM 6.2 (openmm.org) See also: Gromacs, AMBER, Charmm, NAMD,
     </hgroup>
     <article ><ul>
 <li>Extensible C++ library with Python wrappers</li>
-<li>Hardware backends for CUDA, OpenCL, CPU</li>
+<li>CUDA, OpenCL, CPU</li>
 </ul>
 <p><center>
 <img height=300 src=figures/openmm.png />
@@ -173,7 +173,7 @@ Eastman et al, 2012.
     </hgroup>
     <article ><ul>
 <li>Largest distributed computing project</li>
-<li>10,000 GPUs, 40 petaflops, milliseconds in aggregate!</li>
+<li>10,000 GPUs, milliseconds in aggregate!</li>
 </ul>
 <p><center>
 <img height=300 src=figures/folding-icon.png />
@@ -244,17 +244,8 @@ Voelz, Bowman, Beauchamp, Pande. J. Am. Chem. Soc., 2010
       <h2>Application: chemotherapy resistance</h2>
       <h3></h3>
     </hgroup>
-    <article ><p><img height="225" class="center" src=figures/mutation_diagram_SRC.png /></p></article>
- 
-</slide>
-
-<slide  >
-  
-    <hgroup>
-      <h2>Application: chemotherapy resistance</h2>
-      <h3></h3>
-    </hgroup>
-    <article ><p><img height="500" class="center" src=figures/res_muts-2.png /></p></article>
+    <article ><p><img height="175" class="center" src=figures/mutation_diagram_SRC.png /></p>
+<p><img height="300" class="center" src=figures/res_muts-2.png /></p></article>
  
 </slide>
 
@@ -322,7 +313,6 @@ pipeline.fit(trajectories)
 
 <footer class="source"> 
 msmbuilder.org <br>
-Also has command line interface.
 </footer></article>
  
 </slide>
@@ -416,16 +406,15 @@ omnia.md
 <slide  >
   
     <hgroup>
-      <h2>Models are made to be broken</h2>
-      <h3>Benchmarking Small Molecule Forcefields at the Scale of NIST</h3>
+      <h2>Benchmarking Small Molecule Forcefields at the Scale of NIST</h2>
+      <h3></h3>
     </hgroup>
     <article ><ul>
-<li>Chemistry and biophysics are labor-intensive</li>
+<li>Models (forcefields) are made to be broken</li>
 <li>Thousands of parameters = thousands of measurements</li>
-<li>Reproducibilty, scalability, archival</li>
 </ul>
 <p><center>
-<img height=250 src=figures/robot_image.jpg />
+<img height=300 src=figures/robot_image.jpg />
 </center></p></article>
  
 </slide>
