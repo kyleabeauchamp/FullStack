@@ -285,18 +285,10 @@ omnia.md
 ---
 title: Benchmarking Small Molecule Forcefields at the Scale of NIST
 
-- Models (forcefields) are made to be broken
-- Thousands of parameters = thousands of measurements
+- Small molecule forcefields need work
 
 <center>
-<img height=300 src=figures/robot_image.jpg />
-</center>
-
----
-title: Small molecule forcefields need work
-
-<center>
-<img height=500 src=figures/mobley_dielectric.png />
+<img height=400 src=figures/mobley_dielectric.png />
 </center>
 
 <footer class="source"> 
@@ -307,6 +299,7 @@ Fennell, Mobley.  J. Phys. Chem. B. 2014
 ---
 title: Data access is killing forcefields
 
+- Thousands of parameters = thousands of measurements
 - Most datasets are heterogeneous, offline, and static
 
 <center>
