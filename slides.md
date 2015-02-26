@@ -313,9 +313,6 @@ title: Data access is killing forcefields
 <img height=350 src=figures/stack-of-old-books.jpg />
 </center>
 
-<footer class="source"> 
-See also work by Wang, Pande, Swope, Case, MacKerell, Ponder, Best, Hummer, Bruschweiler.
-</footer>
 
 ---
 title: Data Capture at NIST/TRC: ThermoML
