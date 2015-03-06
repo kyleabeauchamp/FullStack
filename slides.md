@@ -1,5 +1,6 @@
 % title: Engineering a full python stack for biophysical computation
 % author: Kyle A. Beauchamp
+% author: Slides here: goo.gl/rKGhzZ
 % favicon: figures/membrane.png
 
 
@@ -365,13 +366,22 @@ Beauchamp et al, In Preparation.
 title:  Static dielectric constants are consistently underestimated
 
 <center>
-<img height=450 src=figures/dielectrics_thermoml_nocorr.png />
+<img height=450 src=figures/dielectrics_thermoml_nocorr_loglog.png />
 </center>
 
 
 <footer class="source"> 
 Beauchamp et al, In Preparation.
 </footer>
+
+---
+title: Fixed charges fail to capture polarizability
+subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol
+
+<center>
+<img height=400 src=figures/nonpolar_molecules.png />
+</center>
+
 
 ---
 title: Atom counting predicts molecular polarizability to within 2%
@@ -392,7 +402,7 @@ Sales, 2002
 title: Empirical atomic polarizability corrections reduce bias
 
 <center>
-<img height=450 src=figures/dielectrics_thermoml.png />
+<img height=450 src=figures/dielectrics_thermoml_loglog.png />
 </center>
 
 

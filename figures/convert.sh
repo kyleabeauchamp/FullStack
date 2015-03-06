@@ -5,3 +5,6 @@ convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectrics_ther
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectrics_thermoml.pdf  ./dielectrics_thermoml.png
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/functional_group_logerr_density.pdf  ./functional_group_logerr_density.png
 convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/densities_thermoml.pdf  ./densities_thermoml.png
+
+convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectrics_thermoml_nocorr_loglog.pdf  ./dielectrics_thermoml_nocorr_loglog.png
+convert ~/src/kyleabeauchamp/LiquidBenchmark/manuscript/figures/dielectrics_thermoml_loglog.pdf  ./dielectrics_thermoml_loglog.png
