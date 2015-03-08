@@ -273,7 +273,6 @@ omnia.md
 </footer>
 
 
-
 ---
 title: Benchmarking small molecule forcefields at the scale of NIST
 
@@ -404,6 +403,25 @@ title: Where do we go from here?
 <center>
 <img height=250 src=figures/robot_image.jpg />
 </center>
+
+
+---
+title: Bayesian Energy Landscape Tilting
+
+- Infer conformational ensembles from simulation <b>and</b> ambiguous experiments
+- Characterize posterior through MCMC
+- Error bars on equilibrium <b>and</b> structural features
+
+<center>
+<img height=250 src=figures/mcmc.png />    <img height=250 src=figures/bpti_raw.png />
+</center>
+
+
+<footer class="source"> 
+Beauchamp, Pande, Das.  Biophys. J.  2014.
+</footer>
+
+
 
 
 ---
