@@ -254,21 +254,6 @@ Haque, 2014.
 </footer>
 
 ---
-title: Python packaging blues
-
-<pre>
-
-<font color="red">User: I couldn't really install the mdtraj module on my computer [...]
-User: I tried easy_install and other things and that didn't work for me.</font>
-
-</pre>
-
-<center>
-<img height=370 src=figures/dependencies0.png />
-</center>
-
-
----
 title: A full stack for biophysical computation
 
 <pre>
@@ -413,7 +398,7 @@ Beauchamp et al, In Preparation.
 ---
 title: Where do we go from here?
 
-- Scale up, real-time simulation, web frontend
+- Scale up, real-time simulation, CI, web frontend
 - Perform new experiments in automated wetlab
 - Bayesian (MCMC) forcefield / experimental design
 

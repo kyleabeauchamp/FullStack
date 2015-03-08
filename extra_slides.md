@@ -183,3 +183,18 @@ subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $
 <center>
 <img height=400 src=figures/nonpolar_molecules.png />
 </center>
+
+
+---
+title: Python packaging blues
+
+<pre>
+
+<font color="red">User: I couldn't really install the mdtraj module on my computer [...]
+User: I tried easy_install and other things and that didn't work for me.</font>
+
+</pre>
+
+<center>
+<img height=370 src=figures/dependencies0.png />
+</center>
