@@ -5,7 +5,7 @@
 
 
 ---
-title: The Atomistic Basis of Disease
+title: The atomistic basis of disease
 
 ...EVKMD<b><font color="black">A</font></b>EFRHDS...  ...EVKMD<b><font color="black">T</font></b>EFRHDS...  ...EVKMD<b><font color="black">V</font></b>EFRHDS...
 
@@ -18,7 +18,7 @@ Jonsson, 2012  A673 T673 V673
 
 
 ---
-title: Molecular Dynamics
+title: Molecular dynamics
 subtitle:  Predict experiments quantitatively, rationalize function, design molecules
 
 <center>
@@ -83,7 +83,7 @@ Eastman et al, 2012.
 </footer>
 
 ---
-title: OpenMM Powers Folding@Home
+title: OpenMM powers Folding@Home
 
 - GPUs only take us to ~100 ns / day
 - Largest distributed computing project
@@ -99,7 +99,7 @@ http://folding.stanford.edu/
 </footer>
 
 ---
-title: Traditional Simulation Analysis: Movies
+title: Traditional simulation analysis: movies
 
 <center>
 <img height=400 src=figures/NewPaths1.png />
@@ -113,7 +113,7 @@ title: Massively parallel simulation?
 
 
 ---
-title: Introduction to Markov State Models
+title: Introduction to Markov state models
 
 <center>
 <img height=400 src=figures/NewPaths3.png />
@@ -125,7 +125,7 @@ See work by Chodera, Bowman, Beauchamp, Pande, Noe, Huang, Voelz, Hummer, Prinz,
 
 
 ---
-title: Application: Millisecond Protein Folding
+title: Application: millisecond protein folding
 
 
 <center>
