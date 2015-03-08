@@ -259,8 +259,6 @@ title: A full stack for biophysical computation
 <pre>
 conda config --add channels http://conda.binstar.org/omnia
 conda install omnia
-
-<font color="red">User: Success!</font>
 </pre>
 
 - OpenMM 6.2
