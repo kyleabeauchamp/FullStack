@@ -18,7 +18,7 @@ Jonsson, 2012  A673 T673 V673
 
 
 ---
-title: Predictive atomistic models
+title: Molecular Dynamics
 subtitle:  Predict experiments quantitatively, rationalize function, design molecules
 
 <center>
@@ -35,7 +35,7 @@ Movie Credit: Shan et al: J. Am. Chem. Soc. (2011).  Dasatinib / src
 ---
 title: Outline
 
-- Simulating Biological Timescales: OpenMM + Folding@Home
+- Simulating Biological Molecules: OpenMM + Folding@Home
 - Inference on atomistic simulations: MSMBuilder + MDTraj
 - A full stack for biophysical computation: Omnia.md
 - Application: Benchmarking Small Forcefields
@@ -337,7 +337,7 @@ Figure from Chiraco, J. Chem. Eng. Dat., 2013.
 
 
 ---
-title: Density and dielectric constants as forcefield tests
+title: Falsifying forcefields using neat liquid density and dielectric constants
 
 - Sensitive to nonbonded parameters
 - Simple ensemble average geometric interpretation
@@ -416,7 +416,7 @@ title: Where do we go from here?
 - Scale up, real-time simulation, web frontend
 - Perform new experiments in automated wetlab
 - Bayesian (MCMC) forcefield / experimental design
-- Polarizable forcefields
+
 
 <center>
 <img height=250 src=figures/robot_image.jpg />
