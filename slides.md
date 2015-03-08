@@ -175,7 +175,7 @@ Beauchamp et al, 2012.
 
 
 ---
-title: MSMBuilder3: Design
+title: MSMBuilder3: design
 
 <div style="float:right; margin-top:-100px">
 <img src="figures/flow-chart.png" height="600">
@@ -194,7 +194,7 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
 
 
 ---
-title: MSMBuilder3: Demo
+title: MSMBuilder3: demo
 
 <pre class="prettyprint" data-lang="python">
 from msmbuilder import example_datasets, cluster, msm
@@ -216,7 +216,7 @@ msmbuilder.org <br>
 </footer>
 
 ---
-title: MDTraj: Trajectory IO and featurization
+title: MDTraj: trajectory IO and featurization
 
 - Multitude of formats (PDB, DCD, XTC, HDF, CDF, mol2)
 - Geometric trajectory analysis (distances, angles, RMSD)
@@ -275,7 +275,7 @@ omnia.md
 
 
 ---
-title: Benchmarking Small Molecule Forcefields at the Scale of NIST
+title: Benchmarking small molecule forcefields at the scale of NIST
 
 - Small molecule forcefields need work
 
@@ -300,7 +300,7 @@ title: Data access is killing forcefields
 
 
 ---
-title: Data Capture at NIST/TRC: ThermoML
+title: Data capture at NIST/TRC: ThermoML
 
 
 <center>
