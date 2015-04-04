@@ -98,7 +98,7 @@ title: OpenMM powers Folding@Home
 <footer class="source"> 
 http://folding.stanford.edu/
 <span style="display:inline-block; width: 15px;"></span>
-Core developed by Yutong Zhao
+FAH OpenMM core developed by Yutong Zhao
 </footer>
 
 ---
@@ -180,6 +180,8 @@ msmbuilder.org
 Bowman et al, 2009.
 <span style="display:inline-block; width: 15px;"></span>
 Beauchamp et al, 2012. 
+<span style="display:inline-block; width: 15px;"></span>
+McGibbon et al, 2014.
 </footer>
 
 
