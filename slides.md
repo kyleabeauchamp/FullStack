@@ -208,17 +208,18 @@ http://rmcgibbo.org/posts/whats-new-in-msmbuilder3/
 title: MSMBuilder3: demo
 
 <pre class="prettyprint" data-lang="python">
-from msmbuilder import example_datasets, cluster, msm
+from msmbuilder import example_datasets, cluster, msm, dataset
 from sklearn.pipeline import make_pipeline
 
-dataset = example_datasets.alanine_dipeptide.fetch_alanine_dipeptide()  # From Figshare!
-trajectories = dataset["trajectories"]  # List of MDTraj Trajectory Objects
+path = "/home/kyleb/msmbuilder_data/alanine_dipeptide/"
+trajectories = dataset.dataset(path + "*.dcd", topology=path + "ala2.pdb")
 
 clusterer = cluster.KCenters(n_clusters=10, metric="rmsd")
 msm_model = msm.MarkovStateModel()
 
 pipeline = make_pipeline(clusterer, msm_model)
 pipeline.fit(trajectories)
+
 
 </pre>
 
@@ -296,7 +297,7 @@ title: Takeaways
 title: People
 
 - John Chodera + ChoderaLab (MSKCC)
-- Robert McGibbon (MSKCC)
+- Robert McGibbon (Stanford)
 - Peter Eastman, Yutong Zhao (Stanford)
 - Vijay Pande + PandeLab (Stanford)
 - 
