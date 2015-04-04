@@ -78,7 +78,8 @@ subtitle: GPU accelerated molecular dynamics
 </center>
 
 <footer class="source"> 
-openmm.org <br>
+openmm.org
+<span style="display:inline-block; width: 15px;"></span>
 Eastman et al, 2012.
 </footer>
 
@@ -96,6 +97,8 @@ title: OpenMM powers Folding@Home
 
 <footer class="source"> 
 http://folding.stanford.edu/
+<span style="display:inline-block; width: 15px;"></span>
+Core developed by Yutong Zhao
 </footer>
 
 ---
@@ -144,7 +147,7 @@ Beauchamp, et al, PNAS 2012
 
 
 ---
-title: Application: chemotherapy resistance
+title: Application: drugs and resistance
 
 <img height="175" class="center" src=figures/mutation_diagram_SRC.png />
 
@@ -154,6 +157,12 @@ title: Application: chemotherapy resistance
 <footer class="source"> 
 cbioportal.org
 </footer>
+
+---
+title: Long-lived states in methyltransferases
+subtitle: Will guide docking, FEP efforts
+
+<img width=480 src=figures/dihedral_map.png />  <img width=480 src=figures/dihedral_map_byrun.png />
 
 ---
 title: MSMBuilder
@@ -166,7 +175,7 @@ subtitle: Finding meaning in massive simulation datasets
 
 
 <footer class="source"> 
-msmbuilder.org <br>
+msmbuilder.org
 <span style="display:inline-block; width: 15px;"></span>
 Bowman et al, 2009.
 <span style="display:inline-block; width: 15px;"></span>
@@ -274,160 +283,26 @@ omnia.md
 
 
 ---
-title: Benchmarking small molecule forcefields at the scale of NIST
-
-- Small molecule forcefields need work
-
-<center>
-<img height=400 src=figures/mobley_dielectric.png />
-</center>
-
-<footer class="source"> 
-Fennell, Mobley.  J. Phys. Chem. B. 2014
-</footer>
-
-
----
-title: Data access is killing forcefields
-
-- Thousands of parameters = thousands of measurements
-- Most datasets are heterogeneous, offline, and static
-
-<center>
-<img height=350 src=figures/stack-of-old-books.jpg />
-</center>
-
-
----
-title: Data capture at NIST/TRC: ThermoML
-
-
-<center>
-<img height=540 src="figures/pipeline.png"/>
-</center>
-
----
-title: ThermoML is rapidly growing
-
-<center>
-<img height=475 src=figures/thermoml_by_time_new.png />
-</center>
-
-<footer class="source"> 
-Figure from Chiraco, J. Chem. Eng. Dat., 2013.
-</footer>
-
-
----
-title: Falsifying forcefields using neat liquid density and dielectric constants
-
-- Sensitive to nonbonded parameters
-- Simple ensemble average geometric interpretation
-
-$$\rho = \langle \frac{M}{V} \rangle$$
-
-$$\epsilon = 1 + \frac{4\pi}{3} \frac{\langle \mu \cdot \mu \rangle - \langle \mu \rangle \cdot \langle \mu \rangle}{V k_B T}$$
-
-<footer class="source"> 
-See also van der Spoel, JCTC, 2011 and Fennell, 2012.
-</footer>
-
-
----
-title:  Densities are in the ballpark
-
-<center>
-<img height=500 src=figures/densities_thermoml.png />
-</center>
-
-<footer class="source"> 
-Beauchamp et al, In Preparation.
-</footer>
-
----
-title:  Static dielectric constants are consistently underestimated
-
-<center>
-<img height=450 src=figures/dielectrics_thermoml_nocorr_loglog.png />
-</center>
-
-
-<footer class="source"> 
-Beauchamp et al, In Preparation.
-</footer>
-
----
-title: Fixed charges fail to capture polarizability
-subtitle: Observed: $\epsilon \approx 2.0$, Predicted: $\epsilon \approx 1.0$, $\Delta \Delta G_{solv} \approx$ 2 kcal / mol
-
-<center>
-<img height=400 src=figures/nonpolar_molecules.png />
-</center>
-
-
----
-title: Atom counting predicts molecular polarizability to within 2%
-
-<center>
-<img height=100 src=figures/sales_title.png />
-</center>
-
-$$\alpha = 1.53 n_C + 0.17 n_H + 0.57 n_O + 1.05 n_N + 2.99 n_S + \\ 2.48 n_P + 0.22 n_F + 2.16 n_{Cl} + 0.32 $$
-
-$$\epsilon_{corrected} = \epsilon_{MD} + 4 \pi N  \frac{\alpha}{\langle V \rangle}$$
-
-
-<footer class="source"> 
-Sales, 2002
-</footer>
----
-title: Empirical atomic polarizability corrections reduce bias
-
-<center>
-<img height=450 src=figures/dielectrics_thermoml_loglog.png />
-</center>
-
-
-<footer class="source"> 
-Beauchamp et al, In Preparation.
-</footer>
-
----
-title: Where do we go from here?
-
-- RSS Feed: real-time simulation, CI, web frontend
-- Perform new experiments in automated wetlab
-- Bayesian (MCMC) forcefield / experimental design
-
-
-<center>
-<img height=250 src=figures/robot_image.jpg />
-</center>
-
-
----
 title: Takeaways
 
 - Distributed GPU computing enables millisecond simulation
 - MSMBuilder / MDTraj builds machine learning models of conformational dynamics
 - omnia.md: Conda packaging of OpenMM, MSMBuilder, MDTraj, and more
-- ThermoML: towards automated benchmarking of atomistic models
+- Ongoing work: characterize metastable states of kinases and methyltransferases to drive docking / FEP efforts
 
 ---
 title: People
 
 - John Chodera + ChoderaLab (MSKCC)
-- Julie Behr (MSKCC)
-- Kenneth Kroenlein (NIST)
-- Robert McGibbon (Stanford)
-- Peter Eastman (Stanford)
+- Robert McGibbon (MSKCC)
+- Peter Eastman, Yutong Zhao (Stanford)
 - Vijay Pande + PandeLab (Stanford)
-- Joy Ku (Stanford)
+- 
 - Jason Swails (Rutgers)
 - Justin MacCallum (U. Calgary)
 
 <footer class="source"> 
-Jan-Hendrik Prinz, Danny Parton, Bas Rustenburg, Sonya Hanson
+Jan-Hendrik Prinz, Patrick Grinaway, Danny Parton, Bas Rustenburg, Sonya Hanson
 Greg Bowman, Christian Schwantes, TJ Lane, Vince Voelz, Imran Haque, Matthew Harrigan, Carlos Hernandez, Bharath Ramsundar, Lee-Ping Wang
-Frank Noe, Martin Scherer, Xuhui Huang, Sergio Bacallado, Mark Friedrichs
+Frank Noe, Martin Scherer, Xuhui Huang, Sergio Bacallado, Mark Friedrichs, Joy Ku
 </footer>
