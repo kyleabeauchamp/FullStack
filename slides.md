@@ -300,9 +300,9 @@ title: People
 - Robert McGibbon (Stanford)
 - Peter Eastman, Yutong Zhao (Stanford)
 - Vijay Pande + PandeLab (Stanford)
-- 
 - Jason Swails (Rutgers)
 - Justin MacCallum (U. Calgary)
+- Minkui Luo (MSKCC)
 
 <footer class="source"> 
 Jan-Hendrik Prinz, Patrick Grinaway, Danny Parton, Bas Rustenburg, Sonya Hanson
